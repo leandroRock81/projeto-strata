@@ -8,8 +8,8 @@
     <meta name="author" content="Leandro Ricardo Adriano">
     <meta name="description" content="projeto curso udemy">
     <meta name="keywords" content="html5, css">
-    <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="normalize.css".css>
+    <link rel="stylesheet" href="estilo.css">
     <script src="https://kit.fontawesome.com/5f4ad62ba8.js" crossorigin="anonymous"></script>
     
 
@@ -19,7 +19,7 @@
 
         <a href="index.html" class="main-header-link">
         <img src="imagens/avatar.jpg" alt=""></a>
-        <h1>Trabalhos e groselhas de <br> <strong>Leandro Ricardo Adriano,</strong><br>um Zé ninguem qualquer. <br>Retirado de <a href="https://html5up.net">html5up.net</a></h1>
+        <h1 class="titulo">Trabalhos e groselhas de<br><strong>Leandro Ricardo Adriano</strong>,<br>um Zé ninguem qualquer. <br>Retirado de <a href="https://html5up.net">html5up.net</a></h1>
 
     </header>
 
@@ -27,7 +27,7 @@
 
         <section class="content-section">
             <h2>Quando o &lt;header&gt; é &lt;aside&gt; e o &lt;aside&gt; é no &lt;header&gt; </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsum ea in at quo quae ducimus accusamus quam iste consequuntur adipisci beatae blanditiis cupiditate molestias minima quaerat, ipsam quasi fugit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam esse laboriosam cumque fuga culpa, explicabo rem architecto quis atque assumenda vel nisi reprehenderit est tempora, eaque laudantium? Molestiae, voluptatum iure.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam fugit rem tempora atque, eum magni aliquam minus nostrum, exercitationem sapiente dignissimos natus necessitatibus optio quis accusantium voluptatibus dolorum nihil id! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore doloribus error quam cupiditate laudantium minima temporibus culpa eos mollitia, quibusdam neque praesentium reiciendis voluptas magnam soluta ullam. Libero, unde praesentium.</p>
 
             <a href="#" title="Veja mais" class="btn-default">Veja mais</a>
 
@@ -130,19 +130,26 @@
 
             <h4>Texto</h4>
 
-            <p>Lorem ipsum <b>bold</b> sit amet, <strong>strong</strong> <i>italico</i> elit. <em>enfâse</em> maxime, <sup>sobrescrito</sup> nam dolores <sub>sub escrito</sub> voluptates culpa dolore, laborum quaerat facil <code>código</code>. E Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia beatae blanditiis nihil voluptatibus molestias facere nostrum ullam atque provident unde saepe.<a href="#">link</a></p>
+            <p>Lorem ipsum <b>bold</b> sit amet, <strong>strong</strong> <i>italico</i> elit. <em>enfâse</em> maxime, <sup>sobrescrito</sup> nam dolores <sub>sub escrito</sub> voluptates culpa dolore, laborum quaerat facil <code>code: for (;;) {...}</code>. E Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia beatae blanditiis nihil voluptatibus molestias facere nostrum ullam atque provident unde saepe. <a href="#">link</a></p>
+
+            <h1>Título h1</h1>
+            <h2>Título h2</h2>
+            <h3>Título h3</h3>
+            <h4>Título h4</h4>
+            <h5>Título h5</h5>
+            <h6>Título h6</h6>
 
             <blockquote cite="http://developer.mozilla.org">
                 <p>Esta é uma citação tirada da
-                Mozilla Developer Center.</p> 
+                        Mozilla Developer Center.</p> 
             </blockquote>
 
             <p>According to Mozilla's website,
                 <q cite="https://www.mozilla.org/en-US/about/history/details/">Firefox 1.0
-                was released in 2004 and became a big success.</q>
+            was released in 2004 and became a big success.</q>
             </p>
 
-            <h4>Pré formatado</h4>
+            <h4>Pré-formatado</h4>
 
             <pre>
                 <code>
@@ -154,36 +161,37 @@
 
             <h4>Listas</h4>
 
-            <h5>Não Ordenada</h5>
-
-            <ul>
-                <li>item 1</li>
-                <li>item 2</li>
-                <li>item 3</li>
-            </ul>
-
-            <h5>Ordenada</h5>
-
-            <ul>
-                <li>item 1</li>
-                <li>item 2</li>
-                <li>item 3</li>
-            </ul>
+            <div class="row">
+                <div class="col2">
+                <h5>Não Ordenada</h5>
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                </ul>
+                <h5>Ordenada</h5>
+                <ol>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                </ol>
+            </div>
 
             <h5>Alternada</h5>
 
-            <ul class="alternada">
-                <li>item 1</li>
-                <li>item 2</li>
-                <li>item 3</li>
-            </ul>
-
-            <h5>Ícones</h5>
-
-            <ul>
-                <li><i class="fa-brands fa-twitter-square"></i></li>
-                <li><i class="fa-brands fa-facebook"></i></li>
-            </ul>
+            <div class="col2">
+                <ul class="alternada">
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                </ul>
+                <h5>Ícones</h5>
+                <ul class="icones">
+                    <li><i class="fa-brands fa-twitter-square"></i></li>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                </ul>
+            </div>
+            </div>
 
             <h5>Ações</h5>
 

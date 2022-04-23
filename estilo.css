@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #666; 
+    line-height: 1.5;  
+}
+
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35%;
+    background-color: aqua;
+    padding: 124px 54px 72px;
+    box-sizing: border-box;
+    background-image: url(imagens/overlay.png), url(imagens/bg.jpg);
+    background-position: left top;
+    background-size: auto, cover;
+    text-align: right;
+}
+
+.titulo {
+    font-size: 29px;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, .5);
+}
+
+.titulo a {
+    color: white;
+    text-decoration: none;
+}
+
+.titulo a:hover {
+    color: rgb(86, 193, 86);
+    transition: 0.8s;
+    text-decoration: underline;
+}
+
+a {
+    color: blue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #6f6e6e;
+    font-weight: normal;
+    margin: 1em 0;
+}
+
+p {
+    margin: 0 0 2em;
+}
+
+sub, sup {
+    font-size: 16px;
+}
+
+blockquote {
+    border-left: 5px solid #efefef;
+    margin: 2em 0;
+    padding: .5em 0 .5em 1.5em;
+}
+
+code {
+    background-color: #121111;
+    border-radius: .35em;
+    border: 2px solid #efefef;
+    font-size: .9em;
+    padding: 0.25 0.65em;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+pre code {
+    display: block;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+.alternada {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.alternada li {
+    border-bottom: 2px solid #ccc;
+    padding-left: 0;
+}
+.alternada li:last-child {
+    border: 0;
+}
+
+.icones {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.icones li {
+    display: inline-block;
+    font-size: 1.5em;
+    color: rgb(110, 110, 215);
+}
+
+.row {
+    overflow: auto;
+}
+
+.col2 {
+    width: 50%;
+    float: left;
+}
+
+.titulo strong {
+    color: white;
+    font-weight: bold;
+}
+
+.main-content {
+    width: 65%;
+    margin-left: 35%;
+    padding: 124px 54px 72px;
+    box-sizing: border-box; /*como o padding acrescenta o tamanho width o border box comprime o tamanho*/
+
+}
