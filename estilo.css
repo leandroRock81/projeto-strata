@@ -67,7 +67,15 @@ img {
 article > p {
     text-align: center;
     margin-top: 0px;
+    text-decoration: underline;
 } 
+
+.recent-card > .p2 {
+    margin-top: -20px;
+    font-size: small;
+    text-decoration: none;
+    
+}
 
 .recent-card img {
     border-radius: 6px;
@@ -124,6 +132,7 @@ ul, ol {
 .icones {
     list-style-type: none;
     padding-left: 0;
+
 }
 
 .icones li {
@@ -314,4 +323,28 @@ input:focus, textarea:focus{
     padding: 0 54px 72px 0;
     box-sizing: border-box;
     text-align: right;    
+}
+
+.ul-icones li, a {
+   display: inline-block;
+   color: white;
+}
+
+.copyright li {
+    color: white;
+    list-style-type: none;
+}
+
+.icon-link {
+    color: white;
+}
+
+.icon-link i:hover {
+    transition: 0.9s;
+    color: rgb(105, 105, 216);
+}
+
+.copyright a:hover {
+    transition: 1s;
+    color: #49bf9d;
 }
